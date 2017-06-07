@@ -1,0 +1,11 @@
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.LogicaNegocio\bin\Debug\Template.LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.LogicaNegocio\bin\Debug\Template.LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.LogicaNegocio\bin\Debug\Template.AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.LogicaNegocio\bin\Debug\Template.Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.LogicaNegocio\bin\Debug\Template.AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.LogicaNegocio\bin\Debug\Template.Entidades.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.LogicaNegocio\obj\Debug\Template.LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.LogicaNegocio\obj\Debug\Template.LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.LogicaNegocio\obj\Debug\Template.LogicaNegocio.pdb
