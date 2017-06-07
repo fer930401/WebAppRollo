@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Compilado</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AutorizaRollo.aspx">
+      <publishTime>05/11/2017 11:06:13</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/20/2017 10:37:38</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.bootstrap.dll">
+      <publishTime>02/20/2017 10:37:39</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>02/20/2017 10:37:39</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>05/08/2017 12:51:55</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>05/08/2017 12:51:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>02/20/2017 10:37:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>02/20/2017 10:37:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>02/20/2017 10:37:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>02/20/2017 10:37:41</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>02/20/2017 10:37:41</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/20/2017 10:37:38</publishTime>
+    </File>
+    <File Include="bin/Rollos.Entidades.dll">
+      <publishTime>05/18/2017 17:06:33</publishTime>
+    </File>
+    <File Include="bin/Rollos.LogicaNegocio.dll">
+      <publishTime>05/18/2017 17:06:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/20/2017 10:37:38</publishTime>
+    </File>
+    <File Include="bin/Template.AccesoDatos.dll">
+      <publishTime>05/18/2017 17:06:33</publishTime>
+    </File>
+    <File Include="bin/WebAppTemplate.dll">
+      <publishTime>05/19/2017 08:36:09</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>02/20/2017 10:37:37</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>02/20/2017 10:37:29</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>05/03/2017 12:02:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>02/20/2017 10:37:37</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>02/20/2017 10:37:29</publishTime>
+    </File>
+    <File Include="DefectosRollo.aspx">
+      <publishTime>05/10/2017 08:48:43</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/20/2017 10:37:37</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/20/2017 10:37:37</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/20/2017 10:37:37</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/20/2017 10:37:37</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>02/20/2017 10:37:29</publishTime>
+    </File>
+    <File Include="Inicio.aspx">
+      <publishTime>05/19/2017 07:33:55</publishTime>
+    </File>
+    <File Include="Media/Imagenes/logoSkytexB.png">
+      <publishTime>03/08/2016 12:43:14</publishTime>
+    </File>
+    <File Include="Media/Imagenes/logo_skytex.png">
+      <publishTime>05/03/2017 12:27:31</publishTime>
+    </File>
+    <File Include="Media/Imagenes/skytex.png">
+      <publishTime>03/28/2016 13:53:32</publishTime>
+    </File>
+    <File Include="Media/skytex.ico">
+      <publishTime>01/30/2016 12:12:01</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/08/2017 12:51:57</publishTime>
+    </File>
+    <File Include="Rollos.Master">
+      <publishTime>05/05/2017 11:28:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>02/20/2017 10:37:37</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>02/20/2017 10:37:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>02/20/2017 10:37:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>02/20/2017 10:37:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>02/20/2017 10:37:32</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>02/20/2017 10:37:37</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>02/20/2017 10:37:36</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>02/20/2017 10:37:36</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/DetailsView.js">
+      <publishTime>02/20/2017 10:37:41</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Focus.js">
+      <publishTime>02/20/2017 10:37:41</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/GridView.js">
+      <publishTime>02/20/2017 10:37:41</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Menu.js">
+      <publishTime>02/20/2017 10:37:41</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MenuStandards.js">
+      <publishTime>02/20/2017 10:37:41</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjax.js">
+      <publishTime>02/20/2017 10:37:40</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js">
+      <publishTime>02/20/2017 10:37:40</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js">
+      <publishTime>02/20/2017 10:37:40</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js">
+      <publishTime>02/20/2017 10:37:40</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js">
+      <publishTime>02/20/2017 10:37:40</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js">
+      <publishTime>02/20/2017 10:37:40</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js">
+      <publishTime>02/20/2017 10:37:40</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js">
+      <publishTime>02/20/2017 10:37:40</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js">
+      <publishTime>02/20/2017 10:37:40</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js">
+      <publishTime>02/20/2017 10:37:40</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js">
+      <publishTime>02/20/2017 10:37:40</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/SmartNav.js">
+      <publishTime>02/20/2017 10:37:41</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/TreeView.js">
+      <publishTime>02/20/2017 10:37:41</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebForms.js">
+      <publishTime>02/20/2017 10:37:41</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebParts.js">
+      <publishTime>02/20/2017 10:37:41</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebUIValidation.js">
+      <publishTime>02/20/2017 10:37:41</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>02/20/2017 10:37:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/18/2017 17:06:35</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
