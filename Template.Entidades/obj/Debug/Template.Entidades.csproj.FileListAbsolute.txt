@@ -1,0 +1,10 @@
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.Entidades\bin\Debug\Template.Entidades.dll.config
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.Entidades\bin\Debug\Template.Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.Entidades\bin\Debug\Template.Entidades.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.Entidades\bin\Debug\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.Entidades\bin\Debug\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.Entidades\obj\Debug\Template.Entidades.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.Entidades\obj\Debug\Template.Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.Entidades\obj\Debug\Template.Entidades.pdb

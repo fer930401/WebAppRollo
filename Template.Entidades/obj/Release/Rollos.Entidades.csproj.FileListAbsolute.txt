@@ -1,0 +1,9 @@
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\bin\Release\Rollos.Entidades.dll.config
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\bin\Release\Rollos.Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\bin\Release\Rollos.Entidades.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\bin\Release\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\bin\Release\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\obj\Release\Rollos.Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\obj\Release\Rollos.Entidades.pdb

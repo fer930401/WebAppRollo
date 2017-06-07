@@ -1,0 +1,10 @@
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\bin\Debug\Rollos.Entidades.dll.config
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\bin\Debug\Rollos.Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\bin\Debug\Rollos.Entidades.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\bin\Debug\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\bin\Debug\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\obj\Debug\Rollos.Entidades.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\obj\Debug\Rollos.Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Entidades\obj\Debug\Rollos.Entidades.pdb
