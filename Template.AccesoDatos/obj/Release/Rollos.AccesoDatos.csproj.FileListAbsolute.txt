@@ -1,0 +1,12 @@
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\bin\Release\Template.AccesoDatos.dll.config
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\bin\Release\Template.AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\bin\Release\Template.AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\bin\Release\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\bin\Release\Rollos.Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\bin\Release\Rollos.Entidades.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\bin\Release\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\obj\Release\Rollos.AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\obj\Release\Template.AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\obj\Release\Template.AccesoDatos.pdb

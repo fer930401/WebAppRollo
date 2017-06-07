@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="skytexModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <Function Name="sp_qrollosxaut" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ef_cve" Type="nchar" Mode="In" />
+          <Parameter Name="prg_cve" Type="nchar" Mode="In" />
+          <Parameter Name="sw" Type="smallint" Mode="In" />
+        </Function>
+        <Function Name="sp_WebAppRollos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="articulo" Type="nvarchar" Mode="In" />
+          <Parameter Name="ele_cve" Type="nvarchar" Mode="In" />
+          <Parameter Name="calidad" Type="nvarchar" Mode="In" />
+          <Parameter Name="ele_exis_um" Type="decimal" Mode="In" />
+          <Parameter Name="uni_uso" Type="nchar" Mode="In" />
+          <Parameter Name="batch" Type="int" Mode="In" />
+          <Parameter Name="cliente" Type="nvarchar" Mode="In" />
+          <Parameter Name="si" Type="int" Mode="In" />
+          <Parameter Name="no" Type="int" Mode="In" />
+          <Parameter Name="opc" Type="int" Mode="In" />
+        </Function>
+        <EntityContainer Name="skytexModelStoreContainer" />
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="skytexModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="RollosEntities" annotation:LazyLoadingEnabled="true" >
+          <FunctionImport Name="sp_qrollosxaut" ReturnType="Collection(skytexModel.sp_qrollosxaut_Result)">
+            <Parameter Name="ef_cve" Mode="In" Type="String" />
+            <Parameter Name="prg_cve" Mode="In" Type="String" />
+            <Parameter Name="sw" Mode="In" Type="Int16" />
+          </FunctionImport>
+          <FunctionImport Name="sp_WebAppRollos" ReturnType="Collection(skytexModel.sp_WebAppRollos_Result)">
+            <Parameter Name="articulo" Mode="In" Type="String" />
+            <Parameter Name="ele_cve" Mode="In" Type="String" />
+            <Parameter Name="calidad" Mode="In" Type="String" />
+            <Parameter Name="ele_exis_um" Mode="In" Type="Decimal" />
+            <Parameter Name="uni_uso" Mode="In" Type="String" />
+            <Parameter Name="batch" Mode="In" Type="Int32" />
+            <Parameter Name="cliente" Mode="In" Type="String" />
+            <Parameter Name="si" Mode="In" Type="Int32" />
+            <Parameter Name="no" Mode="In" Type="Int32" />
+            <Parameter Name="opc" Mode="In" Type="Int32" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="sp_qrollosxaut_Result">
+          <Property Type="String" Name="articulo" Nullable="false" MaxLength="81" />
+          <Property Type="String" Name="ele_cve" Nullable="true" MaxLength="32" />
+          <Property Type="String" Name="calidad" Nullable="true" MaxLength="20" />
+          <Property Type="Decimal" Name="ele_exis_um" Nullable="true" Precision="19" Scale="4" />
+          <Property Type="String" Name="uni_uso" Nullable="false" MaxLength="6" />
+          <Property Type="Int32" Name="batch" Nullable="true" />
+          <Property Type="String" Name="cliente" Nullable="false" MaxLength="25" />
+          <Property Type="Int32" Name="SI" Nullable="false" />
+          <Property Type="Int32" Name="NO" Nullable="false" />
+          <Property Type="Int32" Name="dispo" Nullable="true" />
+          <Property Type="Int32" Name="fol_ped" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_WebAppRollos_Result">
+          <Property Type="String" Name="dft_cve" Nullable="false" MaxLength="3" />
+          <Property Type="String" Name="nombre" Nullable="true" MaxLength="40" />
+          <Property Type="Int32" Name="tot_dft" Nullable="true" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="skytexModelStoreContainer" CdmEntityContainer="RollosEntities" >
+          <FunctionImportMapping FunctionImportName="sp_qrollosxaut" FunctionName="skytexModel.Store.sp_qrollosxaut">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="skytexModel.sp_qrollosxaut_Result">
+                <ScalarProperty Name="articulo" ColumnName="articulo" />
+                <ScalarProperty Name="ele_cve" ColumnName="ele_cve" />
+                <ScalarProperty Name="calidad" ColumnName="calidad" />
+                <ScalarProperty Name="ele_exis_um" ColumnName="ele_exis_um" />
+                <ScalarProperty Name="uni_uso" ColumnName="uni_uso" />
+                <ScalarProperty Name="batch" ColumnName="batch" />
+                <ScalarProperty Name="cliente" ColumnName="cliente" />
+                <ScalarProperty Name="SI" ColumnName="SI" />
+                <ScalarProperty Name="NO" ColumnName="NO" />
+                <ScalarProperty Name="dispo" ColumnName="dispo" />
+                <ScalarProperty Name="fol_ped" ColumnName="fol_ped" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_WebAppRollos" FunctionName="skytexModel.Store.sp_WebAppRollos">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="skytexModel.sp_WebAppRollos_Result">
+                <ScalarProperty Name="dft_cve" ColumnName="dft_cve" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="tot_dft" ColumnName="tot_dft" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

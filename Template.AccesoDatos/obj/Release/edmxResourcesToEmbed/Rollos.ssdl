@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="skytexModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <Function Name="sp_qrollosxaut" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ef_cve" Type="nchar" Mode="In" />
+    <Parameter Name="prg_cve" Type="nchar" Mode="In" />
+    <Parameter Name="sw" Type="smallint" Mode="In" />
+  </Function>
+  <Function Name="sp_WebAppRollos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="articulo" Type="nvarchar" Mode="In" />
+    <Parameter Name="ele_cve" Type="nvarchar" Mode="In" />
+    <Parameter Name="calidad" Type="nvarchar" Mode="In" />
+    <Parameter Name="ele_exis_um" Type="decimal" Mode="In" />
+    <Parameter Name="uni_uso" Type="nchar" Mode="In" />
+    <Parameter Name="batch" Type="int" Mode="In" />
+    <Parameter Name="cliente" Type="nvarchar" Mode="In" />
+    <Parameter Name="si" Type="int" Mode="In" />
+    <Parameter Name="no" Type="int" Mode="In" />
+    <Parameter Name="opc" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="skytexModelStoreContainer" />
+</Schema>

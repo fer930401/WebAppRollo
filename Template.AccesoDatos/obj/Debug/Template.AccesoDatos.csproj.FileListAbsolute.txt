@@ -1,0 +1,10 @@
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.AccesoDatos\bin\Debug\Template.AccesoDatos.dll.config
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.AccesoDatos\bin\Debug\Template.AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.AccesoDatos\bin\Debug\Template.AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.AccesoDatos\bin\Debug\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.AccesoDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.AccesoDatos\bin\Debug\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.AccesoDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.AccesoDatos\obj\Debug\Template.AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.AccesoDatos\obj\Debug\Template.AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppTemplate\Template.AccesoDatos\obj\Debug\Template.AccesoDatos.pdb

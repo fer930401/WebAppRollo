@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="skytexModelStoreContainer" CdmEntityContainer="RollosEntities">
+    <FunctionImportMapping FunctionImportName="sp_qrollosxaut" FunctionName="skytexModel.Store.sp_qrollosxaut">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.sp_qrollosxaut_Result">
+          <ScalarProperty Name="articulo" ColumnName="articulo" />
+          <ScalarProperty Name="ele_cve" ColumnName="ele_cve" />
+          <ScalarProperty Name="calidad" ColumnName="calidad" />
+          <ScalarProperty Name="ele_exis_um" ColumnName="ele_exis_um" />
+          <ScalarProperty Name="uni_uso" ColumnName="uni_uso" />
+          <ScalarProperty Name="batch" ColumnName="batch" />
+          <ScalarProperty Name="cliente" ColumnName="cliente" />
+          <ScalarProperty Name="SI" ColumnName="SI" />
+          <ScalarProperty Name="NO" ColumnName="NO" />
+          <ScalarProperty Name="dispo" ColumnName="dispo" />
+          <ScalarProperty Name="fol_ped" ColumnName="fol_ped" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_WebAppRollos" FunctionName="skytexModel.Store.sp_WebAppRollos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.sp_WebAppRollos_Result">
+          <ScalarProperty Name="dft_cve" ColumnName="dft_cve" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="tot_dft" ColumnName="tot_dft" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
