@@ -199,7 +199,7 @@
         }
     </style>
 
-    <div class="container">
+    <div style="padding-left:25px; padding-right:25px;">
         <div class="well">
             <div class="form-inline">
                 <div class="form-group">
@@ -214,22 +214,24 @@
             <div class="col-md-12">
                 <h5>De los listados mostrados acontinuacion selecciona la opcion del renglon</h5>
                 <div class="row">
-                    <strong><asp:Label ID="lbl1" runat="server" Text="Buscar el folio del pedido:"></asp:Label></strong>
-                    <asp:TextBox ID="tbxFolPed" runat="server" AutoPostBack="true" OnTextChanged="tbxFolPed_TextChanged" ValidationGroup="validaPedido" onkeypress="return event.keyCode != 13;"></asp:TextBox> 
-                    <asp:RegularExpressionValidator ID="validaPedidos" runat="server" ErrorMessage=" *Solo numeros " ControlToValidate="tbxFolPed" ValidationGroup="validaPedido" ValidationExpression="^[0-9]+$"></asp:RegularExpressionValidator>
+                    <div class="col-md-12">
+                        <strong><asp:Label ID="lbl1" runat="server" Text="Buscar el folio del pedido:"></asp:Label></strong>
+                        <asp:TextBox ID="tbxFolPed" runat="server" AutoPostBack="true" OnTextChanged="tbxFolPed_TextChanged" ValidationGroup="validaPedido" onkeypress="return event.keyCode != 13;"></asp:TextBox> 
+                        <asp:RegularExpressionValidator ID="validaPedidos" runat="server" ErrorMessage=" *Solo numeros " ControlToValidate="tbxFolPed" ValidationGroup="validaPedido" ValidationExpression="^[0-9]+$"></asp:RegularExpressionValidator>
                     
-                    <strong><asp:Label ID="lbl2" runat="server" Text="Busca el folio de Dispo:"></asp:Label></strong>
-                    <asp:TextBox ID="tbxFolDispo" runat="server" AutoPostBack="true" OnTextChanged="tbxFolDispo_TextChanged" ValidationGroup="validaDispo" onkeypress="return event.keyCode != 13;" ></asp:TextBox> 
-                    <asp:RegularExpressionValidator ID="validaDispos" runat="server" ErrorMessage=" *Solo numeros " ControlToValidate="tbxFolDispo" ValidationGroup="validaDispo" ValidationExpression="^[0-9]+$"></asp:RegularExpressionValidator>
+                        <strong><asp:Label ID="lbl2" runat="server" Text="Busca el folio de Dispo:"></asp:Label></strong>
+                        <asp:TextBox ID="tbxFolDispo" runat="server" AutoPostBack="true" OnTextChanged="tbxFolDispo_TextChanged" ValidationGroup="validaDispo" onkeypress="return event.keyCode != 13;" ></asp:TextBox> 
+                        <asp:RegularExpressionValidator ID="validaDispos" runat="server" ErrorMessage=" *Solo numeros " ControlToValidate="tbxFolDispo" ValidationGroup="validaDispo" ValidationExpression="^[0-9]+$"></asp:RegularExpressionValidator>
                     
-                    <asp:Label ID="lblCliente" runat="server" Text=""></asp:Label>
-                    <br />
-                    <br />
+                        <asp:Label ID="lblCliente" runat="server" Text=""></asp:Label>
+                        <br />
+                        <br />
+                    </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 
                 <label class="checkbox-inline">
                     <asp:CheckBox ID="cbx21" runat="server" Text="Autorizar todo el bloque 21" Checked="false" OnCheckedChanged="cbx21_CheckedChanged" AutoPostBack="true" />
@@ -238,7 +240,7 @@
                     <asp:CheckBox ID="cbx21No" runat="server" Text="No autorizar todo el bloque 21" Checked="false" OnCheckedChanged="cbx21No_CheckedChanged" AutoPostBack="true" />
                 </label>
                 <asp:GridView ID="gv21" runat="server" AutoGenerateColumns="false" HeaderStyle-BackColor="#042644" HeaderStyle-ForeColor="White"
-                    EmptyDataText="No hay rollos del bloque 21 para autorizar" Font-Size="Small">
+                    EmptyDataText="No hay rollos del bloque 21 para autorizar" Font-Size="X-Small">
                     <HeaderStyle Font-Bold="True" />
                     <Columns>
                         <%--<asp:TemplateField HeaderText="Autorizar:">
@@ -269,7 +271,7 @@
                         <asp:TemplateField HeaderText="Defectos:" ItemStyle-HorizontalAlign="Center">
                             <ItemTemplate>
                                 <%--<asp:Button ID="btnDefectos" runat="server" CssClass="btn btn-success" Text="Defectos"/>--%>
-                                <a id="btnDefectos" class="btn btn-success">Defectos</a>
+                                <a id="btnDefectos" class="btn btn-success btn-xs">Defectos</a>
                             </ItemTemplate>
                         </asp:TemplateField>
                         <%-- <asp:BoundField DataField="cliente" HeaderText="Cliente:" SortExpression="cliente"  />
@@ -278,7 +280,8 @@
                     </Columns>
                 </asp:GridView>
             </div>
-            <div class="col-md-6">
+
+            <div class="col-md-4">
                 <%--<strong><asp:Label ID="lbl2" runat="server" Text=""></asp:Label></strong>
                 <asp:TextBox ID="tbxBatch22" runat="server" AutoPostBack="true" OnTextChanged="tbxBatch22_TextChanged" Enabled="false" Visible="false"></asp:TextBox>
                 <br />
@@ -291,7 +294,7 @@
                 </label>
                 <asp:GridView
                     ID="gv22" runat="server" AutoGenerateColumns="false" HeaderStyle-BackColor="#042644" HeaderStyle-ForeColor="White"
-                    EmptyDataText="No hay rollos del bloque 22 para autorizar" Font-Size="Small">
+                    EmptyDataText="No hay rollos del bloque 22 para autorizar" Font-Size="X-Small">
                     <Columns>
                         <asp:TemplateField HeaderText="Autorizar:" ItemStyle-HorizontalAlign="Center">
                             <ItemTemplate>
@@ -315,7 +318,7 @@
                         <asp:TemplateField HeaderText="Defectos:" ItemStyle-HorizontalAlign="Center">
                             <ItemTemplate>
                                 <%--<asp:Button ID="btnDefectos" runat="server" CssClass="btn btn-success" Text="Defectos"/>--%>
-                                <a id="btnDefectos" class="btn btn-success">Defectos</a>
+                                <a id="btnDefectos" class="btn btn-success btn-xs">Defectos</a>
                             </ItemTemplate>
                         </asp:TemplateField>
                         <%-- <asp:BoundField DataField="cliente" HeaderText="Cliente:" SortExpression="cliente" />
@@ -324,15 +327,45 @@
                     </Columns>
                 </asp:GridView>
             </div>
-        </div>
-        <div class="row">
-            <asp:GridView ID="gvAutorizados" runat="server" HeaderStyle-BackColor="#042644" HeaderStyle-ForeColor="White"
-                AutoGenerateColumns="false">
-                <Columns>
-                    <asp:BoundField DataField="Name" HeaderText="Articulo" ItemStyle-Width="150" />
-                    <asp:BoundField DataField="Country" HeaderText="Elemento" ItemStyle-Width="150" />
-                </Columns>
-            </asp:GridView>
+            <div class="col-md-4">
+                
+                <label class="checkbox-inline">
+                    <asp:CheckBox ID="cbxPCSI" runat="server" Text="Autorizar todo el bloque Piezas Cortas" Checked="false" OnCheckedChanged="cbxPCSI_CheckedChanged" AutoPostBack="true" />
+                </label>
+                <label class="checkbox-inline">
+                    <asp:CheckBox ID="cbxPCNO" runat="server" Text="No autorizar todo el bloque Piezas Cortas" Checked="false" OnCheckedChanged="cbxPCNO_CheckedChanged" AutoPostBack="true" />
+                </label>
+                <asp:GridView ID="gvPC" runat="server" AutoGenerateColumns="false" HeaderStyle-BackColor="#042644" HeaderStyle-ForeColor="White"
+                    EmptyDataText="No hay rollos del bloque de Piezas Cortas para autorizar" Font-Size="X-Small">
+                    <HeaderStyle Font-Bold="True" />
+                    <Columns>
+                        <asp:TemplateField HeaderText="Autorizar:" ItemStyle-HorizontalAlign="Center">
+                            <ItemTemplate>
+                                <asp:CheckBox ID="chkStatusPC" runat="server" 
+                                    Checked='<%# Convert.ToBoolean(Convert.ToInt32(Eval("SI").ToString())) %>'
+                                    Text="Si"/>
+                                <br />
+                                <asp:CheckBox ID="chkStatusPCNo" runat="server" 
+                                    Checked='<%# Convert.ToBoolean(Convert.ToInt32(Eval("NO").ToString())) %>'
+                                    Text="No"/>
+                            </ItemTemplate>
+                        </asp:TemplateField>
+                        <asp:BoundField DataField="articulo" HeaderText="Articulo:" SortExpression="articulo" />
+                        <asp:BoundField DataField="ele_cve" HeaderText="Elemento:" SortExpression="ele_cve" />
+                        <asp:BoundField DataField="calidad" HeaderText="Calidad:" SortExpression="calidad" />
+                        <asp:BoundField DataField="ele_exis_um" HeaderText="Exist.:" SortExpression="ele_exis_um" HtmlEncode="false" DataFormatString="{0:F1}"/>
+                        <asp:BoundField DataField="uni_uso" HeaderText="Unidad uso:" SortExpression="uni_uso" />
+                        <asp:BoundField DataField="dispo" HeaderText="Dispo:" SortExpression="dispo" />
+                        <asp:BoundField DataField="batch" HeaderText="Batch:" SortExpression="batch" />
+                        <asp:BoundField DataField="fol_ped" HeaderText="Pedido:" SortExpression="fol_ped"  />
+                        <asp:TemplateField HeaderText="Defectos:" ItemStyle-HorizontalAlign="Center">
+                            <ItemTemplate>
+                                <a id="btnDefectos" class="btn btn-success btn-xs">Defectos</a>
+                            </ItemTemplate>
+                        </asp:TemplateField>
+                    </Columns>
+                </asp:GridView>
+            </div>
         </div>
     </div>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
