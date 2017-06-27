@@ -199,7 +199,7 @@
         }
     </style>
 
-    <div style="padding-left:25px; padding-right:25px;">
+    <div style="padding-left:5px; padding-right:5px;">
         <div class="well">
             <div class="form-inline">
                 <div class="form-group">
@@ -271,7 +271,7 @@
                         <asp:TemplateField HeaderText="Defectos:" ItemStyle-HorizontalAlign="Center">
                             <ItemTemplate>
                                 <%--<asp:Button ID="btnDefectos" runat="server" CssClass="btn btn-success" Text="Defectos"/>--%>
-                                <a id="btnDefectos" class="btn btn-success btn-xs">Defectos</a>
+                                <a id="btnDefectos" class="btn btn-success btn-xs" title="Defectos">Def.</a>
                             </ItemTemplate>
                         </asp:TemplateField>
                         <%-- <asp:BoundField DataField="cliente" HeaderText="Cliente:" SortExpression="cliente"  />
@@ -318,7 +318,7 @@
                         <asp:TemplateField HeaderText="Defectos:" ItemStyle-HorizontalAlign="Center">
                             <ItemTemplate>
                                 <%--<asp:Button ID="btnDefectos" runat="server" CssClass="btn btn-success" Text="Defectos"/>--%>
-                                <a id="btnDefectos" class="btn btn-success btn-xs">Defectos</a>
+                                <a id="btnDefectos" class="btn btn-success btn-xs" title="Defectos">Def.</a>
                             </ItemTemplate>
                         </asp:TemplateField>
                         <%-- <asp:BoundField DataField="cliente" HeaderText="Cliente:" SortExpression="cliente" />
@@ -360,7 +360,7 @@
                         <asp:BoundField DataField="fol_ped" HeaderText="Pedido:" SortExpression="fol_ped"  />
                         <asp:TemplateField HeaderText="Defectos:" ItemStyle-HorizontalAlign="Center">
                             <ItemTemplate>
-                                <a id="btnDefectos" class="btn btn-success btn-xs">Defectos</a>
+                                <a id="btnDefectos" class="btn btn-success btn-xs" title="Defectos">Def.</a>
                             </ItemTemplate>
                         </asp:TemplateField>
                     </Columns>
