@@ -3,7 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <!-- Fixed navbar -->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript">
@@ -16,7 +15,6 @@
                 var elemento = $("td:eq(2)", tr).html();
                 var dWidth = $(window).width() * 0.4;
                 var dHeight = $(window).height() * 0.4;
-                //alert(elemento);
                 $('<div>').dialog({
                     modal: true,
                     open: function () {
@@ -42,7 +40,31 @@
                 var elemento = $("td:eq(2)", tr).html();
                 var dWidth = $(window).width() * 0.4;
                 var dHeight = $(window).height() * 0.4;
-                //alert(elemento);
+                $('<div>').dialog({
+                    modal: true,
+                    open: function () {
+                        $(this).load('DefectosRollo.aspx?art_tip=' + art_tip + '&elemento=' + elemento);
+                    },
+                    width: dWidth,
+                    height: dHeight,
+                    draggable: false,
+                    responsive: true,
+                    title: "Defectos",
+                    close: function (e, ui) {
+                        window.location.href = 'Inicio.aspx';
+                    }
+                });
+            });
+        });
+        $(function () {
+            $("#<%=gvPC.ClientID%> [id='btnDefectos']").on("click", function () {
+                var tr = $(this).parent().parent();
+                var art_tip = $("td:eq(1)", tr).html();
+                art_tip = art_tip.substring(art_tip.indexOf('(') + 1);
+                art_tip = art_tip.substring(0, art_tip.indexOf(')'));
+                var elemento = $("td:eq(2)", tr).html();
+                var dWidth = $(window).width() * 0.4;
+                var dHeight = $(window).height() * 0.4;
                 $('<div>').dialog({
                     modal: true,
                     open: function () {
@@ -73,7 +95,6 @@
                 var opc = 0;
                 var dWidth = $(window).width() * 0.4;
                 var dHeight = $(window).height() * 0.4;
-                //alert("1 si");
                 $('<div>').dialog({
                     modal: true,
                     open: function () {
@@ -102,7 +123,6 @@
                 var opc = 1;
                 var dWidth = $(window).width() * 0.4;
                 var dHeight = $(window).height() * 0.4;
-                //alert("1 no");
                 $('<div>').dialog({
                     modal: true,
                     open: function () {
@@ -131,7 +151,6 @@
                 var opc = 0;
                 var dWidth = $(window).width() * 0.4;
                 var dHeight = $(window).height() * 0.4;
-                //alert("1 si");
                 $('<div>').dialog({
                     modal: true,
                     open: function () {
@@ -160,7 +179,62 @@
                 var opc = 1;
                 var dWidth = $(window).width() * 0.4;
                 var dHeight = $(window).height() * 0.4;
-                //alert(pedido);
+                $('<div>').dialog({
+                    modal: true,
+                    open: function () {
+                        $(this).load('AutorizaRollo.aspx?ele_cve=' + elemento + '&si=' + si + '&no=' + no + '&opc=' + opc + '&dispo=' + dispo + '&pedido=' + pedido + '&art_tip=' + art_tip);
+                    },
+                    width: dWidth,
+                    height: dHeight,
+                    draggable: false,
+                    responsive: true,
+                    title: "No autorizar",
+                    close: function (e, ui) {
+                        window.location.href = 'Inicio.aspx';
+                    }
+                });
+            });
+            $("#<%=gvPC.ClientID%> input[name*='chkStatusPC']").on("click", function () {
+                var tr = $(this).parent().parent();
+                var art_tip = $("td:eq(1)", tr).html();
+                art_tip = art_tip.substring(art_tip.indexOf('(') + 1);
+                art_tip = art_tip.substring(0, art_tip.indexOf(')'));
+                var elemento = $("td:eq(2)", tr).html();
+                var dispo = $("td:eq(6)", tr).html();
+                var pedido = $("td:eq(8)", tr).html();
+                var si = 1;
+                var no = 0;
+                var opc = 0;
+                var dWidth = $(window).width() * 0.4;
+                var dHeight = $(window).height() * 0.4;
+                $('<div>').dialog({
+                    modal: true,
+                    open: function () {
+                        $(this).load('AutorizaRollo.aspx?ele_cve=' + elemento + '&si=' + si + '&no=' + no + '&opc=' + opc + '&dispo=' + dispo + '&pedido=' + pedido + '&art_tip=' + art_tip);
+                    },
+                    width: dWidth,
+                    height: dHeight,
+                    draggable: false,
+                    responsive: true,
+                    title: "Autorizar",
+                    close: function (e, ui) {
+                        window.location.href = 'Inicio.aspx';
+                    }
+                });
+            });
+            $("#<%=gvPC.ClientID%> input[name*='chkStatusPCNo']").change(function () {
+                var tr = $(this).parent().parent();
+                var art_tip = $("td:eq(1)", tr).html();
+                art_tip = art_tip.substring(art_tip.indexOf('(') + 1);
+                art_tip = art_tip.substring(0, art_tip.indexOf(')'));
+                var elemento = $("td:eq(2)", tr).html();
+                var dispo = $("td:eq(6)", tr).html();
+                var pedido = $("td:eq(8)", tr).html();
+                var si = 0;
+                var no = 1;
+                var opc = 1;
+                var dWidth = $(window).width() * 0.4;
+                var dHeight = $(window).height() * 0.4;
                 $('<div>').dialog({
                     modal: true,
                     open: function () {
@@ -243,12 +317,6 @@
                     EmptyDataText="No hay rollos del bloque 21 para autorizar" Font-Size="X-Small">
                     <HeaderStyle Font-Bold="True" />
                     <Columns>
-                        <%--<asp:TemplateField HeaderText="Autorizar:">
-                            <ItemTemplate>
-                                <asp:RadioButton ID="rbtSi" runat="server" Text="Si" GroupName="validaRollo" />
-                                <asp:RadioButton ID="rbtNo" runat="server" Text="No" GroupName="validaRollo" />
-                            </ItemTemplate>
-                        </asp:TemplateField>--%>
                         <asp:TemplateField HeaderText="Autorizar:" ItemStyle-HorizontalAlign="Center">
                             <ItemTemplate>
                                 <asp:CheckBox ID="chkStatus21" runat="server" 
@@ -270,22 +338,14 @@
                         <asp:BoundField DataField="fol_ped" HeaderText="Pedido:" SortExpression="fol_ped"  />
                         <asp:TemplateField HeaderText="Defectos:" ItemStyle-HorizontalAlign="Center">
                             <ItemTemplate>
-                                <%--<asp:Button ID="btnDefectos" runat="server" CssClass="btn btn-success" Text="Defectos"/>--%>
                                 <a id="btnDefectos" class="btn btn-success btn-xs" title="Defectos">Def.</a>
                             </ItemTemplate>
                         </asp:TemplateField>
-                        <%-- <asp:BoundField DataField="cliente" HeaderText="Cliente:" SortExpression="cliente"  />
-                        <asp:BoundField DataField="SI" HeaderText="Opcion:" SortExpression="SI"  />
-                        <asp:BoundField DataField="NO" HeaderText="Opcion:" SortExpression="NO" />--%>
                     </Columns>
                 </asp:GridView>
             </div>
 
             <div class="col-md-4">
-                <%--<strong><asp:Label ID="lbl2" runat="server" Text=""></asp:Label></strong>
-                <asp:TextBox ID="tbxBatch22" runat="server" AutoPostBack="true" OnTextChanged="tbxBatch22_TextChanged" Enabled="false" Visible="false"></asp:TextBox>
-                <br />
-                <br />--%>
                 <label class="checkbox-inline">
                     <asp:CheckBox ID="cbx22" runat="server" Text="Autorizar todo el bloque 22" Checked="false" OnCheckedChanged="cbx22_CheckedChanged" AutoPostBack="true"/>
                 </label>
@@ -317,13 +377,9 @@
                         <asp:BoundField DataField="fol_ped" HeaderText="Pedido:" SortExpression="fol_ped"  />
                         <asp:TemplateField HeaderText="Defectos:" ItemStyle-HorizontalAlign="Center">
                             <ItemTemplate>
-                                <%--<asp:Button ID="btnDefectos" runat="server" CssClass="btn btn-success" Text="Defectos"/>--%>
                                 <a id="btnDefectos" class="btn btn-success btn-xs" title="Defectos">Def.</a>
                             </ItemTemplate>
                         </asp:TemplateField>
-                        <%-- <asp:BoundField DataField="cliente" HeaderText="Cliente:" SortExpression="cliente" />
-                        <asp:BoundField DataField="SI" HeaderText="SI:" SortExpression="SI"  />
-                        <asp:BoundField DataField="NO" HeaderText="NO:" SortExpression="NO" />--%>
                     </Columns>
                 </asp:GridView>
             </div>
