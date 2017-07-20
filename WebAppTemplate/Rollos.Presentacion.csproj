@@ -117,7 +117,9 @@
     <Content Include="Media\Imagenes\logo_skytex.png" />
     <Content Include="Media\Imagenes\skytex.png" />
     <Content Include="Media\skytex.ico" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
