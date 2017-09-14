@@ -72,6 +72,8 @@ namespace WebAppTemplate
                     gv21.DataBind();
                     gv22.DataSource = llenaBloque22Filtro(pedido, dispo, status, opc);
                     gv22.DataBind();
+                    gvPC.DataSource = llenaBloquePCFiltro(pedido, dispo, status, opc);
+                    gvPC.DataBind();
                     lblCliente.Text = "Cliente: <strong>" + variables.Cliente + "</strong>";
                 }
                 else if (string.IsNullOrEmpty(tbxFolPed.Text) == false && string.IsNullOrEmpty(tbxFolDispo.Text) == false)
@@ -85,6 +87,8 @@ namespace WebAppTemplate
                     gv21.DataBind();
                     gv22.DataSource = llenaBloque22Filtro(pedido, dispo, status, opc);
                     gv22.DataBind();
+                    gvPC.DataSource = llenaBloquePCFiltro(pedido, dispo, status, opc);
+                    gvPC.DataBind();
                     lblCliente.Text = "Cliente: <strong>" + variables.Cliente + "</strong>";
                 }
                 else if (string.IsNullOrEmpty(tbxFolPed.Text) == true && string.IsNullOrEmpty(tbxFolDispo.Text) == false)
@@ -98,6 +102,8 @@ namespace WebAppTemplate
                     gv21.DataBind();
                     gv22.DataSource = llenaBloque22Filtro(pedido, dispo, status, opc);
                     gv22.DataBind();
+                    gvPC.DataSource = llenaBloquePCFiltro(pedido, dispo, status, opc);
+                    gvPC.DataBind();
                     lblCliente.Text = "Cliente: <strong>" + variables.Cliente + "</strong>";
                 }
                 else if (string.IsNullOrEmpty(tbxFolPed.Text) == true && string.IsNullOrEmpty(tbxFolDispo.Text) == true)
@@ -106,6 +112,8 @@ namespace WebAppTemplate
                     gv21.DataBind();
                     gv22.DataSource = null;
                     gv22.DataBind();
+                    gvPC.DataSource = null;
+                    gvPC.DataBind();
                     variables.Cliente = null;
                     variables.Pedido = null;
                 }
@@ -131,6 +139,8 @@ namespace WebAppTemplate
                     gv21.DataBind();
                     gv22.DataSource = llenaBloque22Filtro(pedido, dispo, status, opc);
                     gv22.DataBind();
+                    gvPC.DataSource = llenaBloquePCFiltro(pedido, dispo, status, opc);
+                    gvPC.DataBind();
                     lblCliente.Text = "Cliente: <strong>" + variables.Cliente + "</strong>";
                 }
                 else if (string.IsNullOrEmpty(tbxFolDispo.Text) == false && string.IsNullOrEmpty(tbxFolPed.Text) == false)
@@ -144,6 +154,8 @@ namespace WebAppTemplate
                     gv21.DataBind();
                     gv22.DataSource = llenaBloque22Filtro(pedido, dispo, status, opc);
                     gv22.DataBind();
+                    gvPC.DataSource = llenaBloquePCFiltro(pedido, dispo, status, opc);
+                    gvPC.DataBind();
                     lblCliente.Text = "Cliente: <strong>" + variables.Cliente + "</strong>";
                 }
                 else if (string.IsNullOrEmpty(tbxFolDispo.Text) == true && string.IsNullOrEmpty(tbxFolPed.Text) == false)
@@ -157,6 +169,8 @@ namespace WebAppTemplate
                     gv21.DataBind();
                     gv22.DataSource = llenaBloque22Filtro(pedido, dispo, status, opc);
                     gv22.DataBind();
+                    gvPC.DataSource = llenaBloquePCFiltro(pedido, dispo, status, opc);
+                    gvPC.DataBind();
                     lblCliente.Text = "Cliente: <strong>" + variables.Cliente + "</strong>";
                 }
                 else if (string.IsNullOrEmpty(tbxFolDispo.Text) == true && string.IsNullOrEmpty(tbxFolPed.Text) == true)
@@ -165,6 +179,8 @@ namespace WebAppTemplate
                     gv21.DataBind();
                     gv22.DataSource = null;
                     gv22.DataBind();
+                    gvPC.DataSource = null;
+                    gvPC.DataBind();
                     variables.Dispos = null;
                     variables.Cliente = null;
                 }
@@ -212,7 +228,7 @@ namespace WebAppTemplate
                     dr["fol_ped"] = elemento.fol_ped;
                     if (opc == 1)
                     {
-                        if (elemento.calidad.Equals("21") == true && elemento.fol_ped == FolPed)
+                        if (elemento.calidad.Contains("21") == true && elemento.fol_ped == FolPed)
                         {
                             variables.Cliente = elemento.cliente;
                             variables.Articulo = elemento.articulo;
@@ -221,7 +237,7 @@ namespace WebAppTemplate
                     }
                     else if (opc == 2)
                     {
-                        if (elemento.calidad.Equals("21") == true && elemento.dispo == FolDispo)
+                        if (elemento.calidad.Contains("21") == true && elemento.dispo == FolDispo)
                         {
                             variables.Cliente = elemento.cliente;
                             variables.Articulo = elemento.articulo;
@@ -230,7 +246,7 @@ namespace WebAppTemplate
                     }
                     else if (opc == 3)
                     {
-                        if (elemento.calidad.Equals("21") == true && elemento.dispo == FolDispo && elemento.fol_ped == FolPed)
+                        if (elemento.calidad.Contains("21") == true && elemento.dispo == FolDispo && elemento.fol_ped == FolPed)
                         {
                             variables.Cliente = elemento.cliente;
                             variables.Articulo = elemento.articulo;
@@ -282,7 +298,7 @@ namespace WebAppTemplate
                     dr["fol_ped"] = elemento.fol_ped;
                     if (opc == 1)
                     {
-                        if (elemento.calidad.Equals("22") == true && elemento.fol_ped == FolPed)
+                        if (elemento.calidad.Contains("22") == true && elemento.fol_ped == FolPed)
                         {
                             variables.Cliente = elemento.cliente;
                             variables.Articulo = elemento.articulo;
@@ -291,7 +307,7 @@ namespace WebAppTemplate
                     }
                     else if (opc == 2)
                     {
-                        if (elemento.calidad.Equals("22") == true && elemento.dispo == FolDispo)
+                        if (elemento.calidad.Contains("22") == true && elemento.dispo == FolDispo)
                         {
                             variables.Cliente = elemento.cliente;
                             variables.Articulo = elemento.articulo;
@@ -300,7 +316,7 @@ namespace WebAppTemplate
                     }
                     else if (opc == 3)
                     {
-                        if (elemento.calidad.Equals("22") == true && elemento.dispo == FolDispo && elemento.fol_ped == FolPed)
+                        if (elemento.calidad.Contains("22") == true && elemento.dispo == FolDispo && elemento.fol_ped == FolPed)
                         {
                             variables.Cliente = elemento.cliente;
                             variables.Articulo = elemento.articulo;
@@ -351,7 +367,7 @@ namespace WebAppTemplate
                     dr["fol_ped"] = elemento.fol_ped;
                     if (opc == 1)
                     {
-                        if (elemento.calidad.Equals("11") == true || elemento.calidad.Equals("12") == true || elemento.calidad.Equals("13") == true && elemento.fol_ped == FolPed)
+                        if (elemento.calidad.Contains("11") == true || elemento.calidad.Contains("12") == true || elemento.calidad.Contains("13") == true && elemento.fol_ped == FolPed)
                         {
                             variables.Cliente = elemento.cliente;
                             variables.Articulo = elemento.articulo;
@@ -360,7 +376,7 @@ namespace WebAppTemplate
                     }
                     else if (opc == 2)
                     {
-                        if (elemento.calidad.Equals("11") == true || elemento.calidad.Equals("12") == true || elemento.calidad.Equals("13") == true && elemento.dispo == FolDispo)
+                        if (elemento.calidad.Contains("11") == true || elemento.calidad.Contains("12") == true || elemento.calidad.Contains("13") == true && elemento.dispo == FolDispo)
                         {
                             variables.Cliente = elemento.cliente;
                             variables.Articulo = elemento.articulo;
@@ -369,7 +385,7 @@ namespace WebAppTemplate
                     }
                     else if (opc == 3)
                     {
-                        if (elemento.calidad.Equals("11") == true || elemento.calidad.Equals("12") == true || elemento.calidad.Equals("13") == true && elemento.dispo == FolDispo && elemento.fol_ped == FolPed)
+                        if (elemento.calidad.Contains("11") == true || elemento.calidad.Contains("12") == true || elemento.calidad.Contains("13") == true && elemento.dispo == FolDispo && elemento.fol_ped == FolPed)
                         {
                             variables.Cliente = elemento.cliente;
                             variables.Articulo = elemento.articulo;

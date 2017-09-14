@@ -386,10 +386,10 @@
             <div class="col-md-4">
                 
                 <label class="checkbox-inline">
-                    <asp:CheckBox ID="cbxPCSI" runat="server" Text="Autorizar todo el bloque Piezas Cortas" Checked="false" OnCheckedChanged="cbxPCSI_CheckedChanged" AutoPostBack="true" />
+                    <asp:CheckBox ID="cbxPCSI" runat="server" Text="Autorizar Piezas Cortas" Checked="false" OnCheckedChanged="cbxPCSI_CheckedChanged" AutoPostBack="true" />
                 </label>
                 <label class="checkbox-inline">
-                    <asp:CheckBox ID="cbxPCNO" runat="server" Text="No autorizar todo el bloque Piezas Cortas" Checked="false" OnCheckedChanged="cbxPCNO_CheckedChanged" AutoPostBack="true" />
+                    <asp:CheckBox ID="cbxPCNO" runat="server" Text="No autorizar Piezas Cortas" Checked="false" OnCheckedChanged="cbxPCNO_CheckedChanged" AutoPostBack="true" />
                 </label>
                 <asp:GridView ID="gvPC" runat="server" AutoGenerateColumns="false" HeaderStyle-BackColor="#042644" HeaderStyle-ForeColor="White"
                     EmptyDataText="No hay rollos del bloque de Piezas Cortas para autorizar" Font-Size="X-Small">
