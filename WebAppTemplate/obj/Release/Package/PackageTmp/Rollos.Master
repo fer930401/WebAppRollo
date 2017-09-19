@@ -1,11 +1,11 @@
-ï»¿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Rollos.Master.cs" Inherits="WebAppTemplate.Template" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Rollos.Master.cs" Inherits="WebAppTemplate.Template" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <!-- Titulo o nombre de la pagina web -->
-    <title>Rollos | Skytex MÃ©xico</title>
+    <title>Rollos | Skytex México</title>
 
     <!-- Icono de la aplicacion web -->
     <link rel="shortcut icon" href="Media/skytex.ico" />
@@ -57,13 +57,13 @@
     <div class="container">
         <footer class="piePagina">
             <address>
-                <strong>Skytex MÃ©xico S.A de C.V. <%= DateTime.Now.ToString("yyyy") %></strong><br />
-                Corredor Industrial QuetzalcÃ³atl, Huejotzingo, Pue<br />
+                <strong>Skytex México S.A de C.V. <%= DateTime.Now.ToString("yyyy") %></strong><br />
+                Corredor Industrial Quetzalcóatl, Huejotzingo, Pue<br />
             </address>
 
             <address>
                 <strong>Pagina Web</strong><br />
-                <a href="http://www.skytex.com.mx/">Skytex MÃ©xico</a>
+                <a href="http://www.skytex.com.mx/">Skytex México</a>
             </address>
         </footer>
     </div>

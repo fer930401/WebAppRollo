@@ -9,3 +9,14 @@ C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Logica
 C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.LogicaNegocio\obj\Debug\Rollos.LogicaNegocio.csprojResolveAssemblyReference.cache
 C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.LogicaNegocio\obj\Debug\Rollos.LogicaNegocio.dll
 C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.LogicaNegocio\obj\Debug\Rollos.LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Debug\Rollos.LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Debug\Rollos.LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Debug\Rollos.Entidades.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Debug\Template.AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Debug\Template.AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Debug\Rollos.Entidades.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\obj\Debug\Rollos.LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\obj\Debug\Rollos.LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\obj\Debug\Rollos.LogicaNegocio.pdb

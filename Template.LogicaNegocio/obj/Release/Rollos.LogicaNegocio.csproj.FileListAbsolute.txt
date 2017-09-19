@@ -9,3 +9,14 @@ C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Logica
 C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.LogicaNegocio\obj\Release\Rollos.LogicaNegocio.csprojResolveAssemblyReference.cache
 C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.LogicaNegocio\obj\Release\Rollos.LogicaNegocio.dll
 C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.LogicaNegocio\obj\Release\Rollos.LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Release\Rollos.LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Release\Rollos.LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Release\Rollos.Entidades.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Release\Template.AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Release\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Release\Template.AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Release\Rollos.Entidades.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\bin\Release\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\obj\Release\Rollos.LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\obj\Release\Rollos.LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.LogicaNegocio\obj\Release\Rollos.LogicaNegocio.pdb

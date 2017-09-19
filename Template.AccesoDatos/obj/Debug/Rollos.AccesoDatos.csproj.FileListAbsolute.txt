@@ -10,3 +10,15 @@ C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.Acceso
 C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\obj\Debug\Rollos.AccesoDatos.csprojResolveAssemblyReference.cache
 C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\obj\Debug\Template.AccesoDatos.dll
 C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Template.AccesoDatos\obj\Debug\Template.AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.AccesoDatos\bin\Debug\Template.AccesoDatos.dll.config
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.AccesoDatos\bin\Debug\Template.AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.AccesoDatos\bin\Debug\Template.AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.AccesoDatos\bin\Debug\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.AccesoDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.AccesoDatos\bin\Debug\Rollos.Entidades.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.AccesoDatos\bin\Debug\Rollos.Entidades.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.AccesoDatos\bin\Debug\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.AccesoDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.AccesoDatos\obj\Debug\Rollos.AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.AccesoDatos\obj\Debug\Template.AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Template.AccesoDatos\obj\Debug\Template.AccesoDatos.pdb

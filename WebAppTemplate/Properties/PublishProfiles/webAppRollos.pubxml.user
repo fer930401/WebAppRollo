@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppRollos\Compilado</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\fernando.garcia\Documents\Repositorios\WebAppRollo\Compilado</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="AutorizaRollo.aspx">
@@ -58,7 +58,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/18/2017 17:06:33</publishTime>
     </File>
     <File Include="bin/WebAppTemplate.dll">
-      <publishTime>05/19/2017 08:36:09</publishTime>
+      <publishTime>09/19/2017 11:51:23</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>02/20/2017 10:37:37</publishTime>
@@ -67,7 +67,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/20/2017 10:37:29</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>05/03/2017 12:02:02</publishTime>
+      <publishTime>06/27/2017 15:50:49</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
       <publishTime>02/20/2017 10:37:37</publishTime>
@@ -94,7 +94,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/20/2017 10:37:29</publishTime>
     </File>
     <File Include="Inicio.aspx">
-      <publishTime>05/19/2017 07:33:55</publishTime>
+      <publishTime>09/14/2017 10:54:40</publishTime>
     </File>
     <File Include="Media/Imagenes/logoSkytexB.png">
       <publishTime>03/08/2016 12:43:14</publishTime>
@@ -112,7 +112,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/08/2017 12:51:57</publishTime>
     </File>
     <File Include="Rollos.Master">
-      <publishTime>05/05/2017 11:28:22</publishTime>
+      <publishTime>09/14/2017 10:50:07</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>02/20/2017 10:37:37</publishTime>
@@ -205,7 +205,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/20/2017 10:37:37</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/18/2017 17:06:35</publishTime>
+      <publishTime>09/19/2017 11:51:23</publishTime>
     </File>
   </ItemGroup>
 </Project>
